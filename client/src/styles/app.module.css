@@ -1,0 +1,15 @@
+.div {
+    background-color: aquamarine;
+    border-radius: 5px;
+    max-width: 400px;
+    height: 150px;
+    display: flex;
+    margin: auto;
+    margin-top: 15%;
+}
+
+.p {
+    font-size: xx-large;
+    margin-left: 20px;
+    margin-top: 12%;
+}
