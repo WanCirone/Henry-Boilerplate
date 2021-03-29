@@ -18,24 +18,16 @@ module.exports = {
         test: /\.css$/,
         use: ['style-loader', 'css-loader']
       },
-      // {
-      //   test: /\.css$/,
-      //   use: ['style-loader', 
-      //     {
-      //       loader: 'css-loader',
-      //       options: {
-      //         importLoaders: 1,
-      //         modules: true
-      //       }
-      //     }
-      //   ]
-      // }
+      {
+        test: /\.png/,
+        type: 'asset/resource' 
+      },
     ]
   },
   devServer: {
     contentBase: path.resolve(__dirname, 'public'),
-    port: 3000,
-    open: true
+    //port: 3000,
+    //open: true
   }
 }
 
